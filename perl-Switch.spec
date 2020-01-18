@@ -1,6 +1,6 @@
 Name:		perl-Switch
 Version:	2.16
-Release:	6%{?dist}
+Release:	7%{?dist}
 Summary:	A switch statement for Perl
 Group:		Development/Libraries
 License:	GPL+ or Artistic
@@ -54,6 +54,9 @@ make test
 %{_mandir}/man3/*.3*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.16-7
+- Mass rebuild 2013-12-27
+
 * Fri Jul 12 2013 Jitka Plesnikova <jplesnik@redhat.com> - 2.16-6
 - Specify all dependencies
 - Use DESTDIR rather than PERL_INSTALL_ROOT
